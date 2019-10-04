@@ -5,16 +5,16 @@ const int size=40;
 int array[size],n;
 void bubble_sort()
 {    
-    int temp;
+    int t;
     for (int i=n-1;i>0;i--)
      {
 		for(int j=0;j<i;j++)
 			{
 				if(array[j]<array[j+1])
 					{
-						temp=array[j];
+						t=array[j];
 						array[j]=array[j+1];
-						array[j+1]=temp;
+						array[j+1]=t;
 					}
 			}
 	 }
