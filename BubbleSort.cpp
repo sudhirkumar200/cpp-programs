@@ -2,7 +2,7 @@
 #include<stdlib.h>
 #include<algorithm>
 using namespace::std;
-const int size=40;
+const int size=45;
 int array[size],n;
 void bubble_sort()
 {    
