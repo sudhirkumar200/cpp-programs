@@ -25,7 +25,7 @@ int main()
 	cout<<"Enter Array Elements:\n";
 	for(int i=0;i<n;i++)
 	  cin>>array[i];
-	cout<<"Enter element to be searched for:";
+	cout<<"Enter elemenT to be searched for:";
 	cin>>elem;
 	Lsearch(elem);
 	return 0;
