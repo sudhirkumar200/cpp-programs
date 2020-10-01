@@ -1,5 +1,6 @@
 #include<iostream>
 #include<stdlib.h>
+#include<algorithm>
 using namespace::std;
 const int size=40;
 int array[size],n;
