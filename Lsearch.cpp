@@ -2,7 +2,7 @@
 #include<stdlib.h>
 using namespace::std;
 const int size=40;
-int array[size],n;
+int array[size],n,b;
 void Lsearch(int ele)
 {	int found=0,pos;
 	for(int i=0;i<n;i++)
